@@ -41,6 +41,7 @@ function novoJogo(){
     exibirTextoNaTela('p', 'Escolha um número de 1 a 10');
     botaoChutar = document.getElementById('chutar');
     botaoChutar.disabled = false;
+    tentativas = 0;
 }
 
 exibirTextoNaTela('h1', 'Jogo do número secreto');
