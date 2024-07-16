@@ -39,7 +39,7 @@ function gerarNumeroAleatorio(){
 function novoJogo(){
     numeroSecreto = gerarNumeroAleatorio();
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número de 1 a 10');
+    exibirTextoNaTela('p', `Escolha um número de 1 a ${dificuldade}`);
     botaoChutar = document.getElementById('chutar');
     botaoChutar.disabled = false;
     tentativas = 0;
