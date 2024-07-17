@@ -1,4 +1,4 @@
-let dificuldade = 50;
+let dificuldade = 20;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 function exibirTextoNaTela(tag, texto){
